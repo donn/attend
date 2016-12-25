@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "hasebou.prototyping.miniattend"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile 'com.roughike:bottom-bar:1.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.google.android.gms:play-services-vision:9.2.1'
+    compile 'com.mikhaellopez:circularprogressbar:1.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha3'
+    compile 'com.afollestad.material-dialogs:core:0.8.6.2'
+    testCompile 'junit:junit:4.12'
+}

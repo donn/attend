@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3779C955C7D0673971B9DB50AA37F14C18595037",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3779C955C7D0673971B9DB50AA37F14C18595037" : 0,
+    "67620B5EFA902936DF04070AF595B76AB0333747" : 0,
+    "E358A665ABC943F3D5FC31E227056918AD0765BC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9D97B645-B6FC-4D1C-B95F-0B7B304E0868",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3779C955C7D0673971B9DB50AA37F14C18595037" : "miniAttend\/",
+    "67620B5EFA902936DF04070AF595B76AB0333747" : "miniAttend\/Alamofire\/",
+    "E358A665ABC943F3D5FC31E227056918AD0765BC" : "miniattend\/Alamofire-Swift3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "miniAttend",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "miniAttend.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Skyus\/miniAttend.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3779C955C7D0673971B9DB50AA37F14C18595037"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Alamofire\/Alamofire.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67620B5EFA902936DF04070AF595B76AB0333747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Skyus\/Alamofire-Swift3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E358A665ABC943F3D5FC31E227056918AD0765BC"
+    }
+  ]
+}

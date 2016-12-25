@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70228CE71E09284C00A14237 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CC91E09284C00A14237 /* About.swift */; };
+		70228CE81E09284C00A14237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CCA1E09284C00A14237 /* AppDelegate.swift */; };
+		70228CE91E09284C00A14237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70228CCB1E09284C00A14237 /* Assets.xcassets */; };
+		70228CEB1E09284C00A14237 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CCD1E09284C00A14237 /* Course.swift */; };
+		70228CEC1E09284C00A14237 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CCE1E09284C00A14237 /* Event.swift */; };
+		70228CEE1E09284C00A14237 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70228CD01E09284C00A14237 /* Launch Screen.storyboard */; };
+		70228CEF1E09284C00A14237 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70228CD11E09284C00A14237 /* Localizable.strings */; };
+		70228CF01E09284C00A14237 /* Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD21E09284C00A14237 /* Screen1.swift */; };
+		70228CF11E09284C00A14237 /* Screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD31E09284C00A14237 /* Screen2.swift */; };
+		70228CF21E09284C00A14237 /* Screen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD41E09284C00A14237 /* Screen3.swift */; };
+		70228CF31E09284C00A14237 /* Screen3Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD51E09284C00A14237 /* Screen3Tab1.swift */; };
+		70228CF41E09284C00A14237 /* Screen3Tab1Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD61E09284C00A14237 /* Screen3Tab1Popup.swift */; };
+		70228CF51E09284C00A14237 /* Screen3Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD71E09284C00A14237 /* Screen3Tab2.swift */; };
+		70228CF61E09284C00A14237 /* Screen3Tab2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD81E09284C00A14237 /* Screen3Tab2Cell.swift */; };
+		70228CF71E09284C00A14237 /* Screen3Tab4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CD91E09284C00A14237 /* Screen3Tab4.swift */; };
+		70228CF81E09284C00A14237 /* Screen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CDA1E09284C00A14237 /* Screen4.swift */; };
+		70228CF91E09284C00A14237 /* Screen4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CDB1E09284C00A14237 /* Screen4Cell.swift */; };
+		70228CFA1E09284C00A14237 /* Screen4Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CDC1E09284C00A14237 /* Screen4Popup.swift */; };
+		70228CFB1E09284D00A14237 /* Screen5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CDD1E09284C00A14237 /* Screen5.swift */; };
+		70228CFC1E09284D00A14237 /* Screen6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CDE1E09284C00A14237 /* Screen6.swift */; };
+		70228CFD1E09284D00A14237 /* Screen6a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CDF1E09284C00A14237 /* Screen6a.swift */; };
+		70228CFE1E09284D00A14237 /* Screen7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CE01E09284C00A14237 /* Screen7.swift */; };
+		70228CFF1E09284D00A14237 /* Screen8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CE11E09284C00A14237 /* Screen8.swift */; };
+		70228D001E09284D00A14237 /* Screen9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CE21E09284C00A14237 /* Screen9.swift */; };
+		70228D011E09284D00A14237 /* Screen9Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CE31E09284C00A14237 /* Screen9Cell.swift */; };
+		70228D021E09284D00A14237 /* ScreenX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CE41E09284C00A14237 /* ScreenX.swift */; };
+		70228D031E09284D00A14237 /* Tabs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70228CE51E09284C00A14237 /* Tabs.storyboard */; };
+		70228D041E09284D00A14237 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228CE61E09284C00A14237 /* Utils.swift */; };
+		70228D071E09286E00A14237 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D061E09286E00A14237 /* KDCircularProgress.swift */; };
+		70228D111E09288200A14237 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D0A1E09288200A14237 /* QRCodeReader.swift */; };
+		70228D121E09288200A14237 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D0B1E09288200A14237 /* QRCodeReaderResult.swift */; };
+		70228D131E09288200A14237 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D0C1E09288200A14237 /* QRCodeViewController.swift */; };
+		70228D141E09288200A14237 /* QRCodeViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D0D1E09288200A14237 /* QRCodeViewControllerBuilder.swift */; };
+		70228D151E09288200A14237 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D0E1E09288200A14237 /* ReaderOverlayView.swift */; };
+		70228D161E09288200A14237 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D0F1E09288200A14237 /* SwitchCameraButton.swift */; };
+		70228D171E09288200A14237 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D101E09288200A14237 /* ToggleTorchButton.swift */; };
+		70228D321E0928C600A14237 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70228D251E0928BA00A14237 /* Alamofire.framework */; };
+		70228D331E0928C600A14237 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70228D251E0928BA00A14237 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		70228D411E0BB84900A14237 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70228D401E0BB84900A14237 /* SwiftyJSON.swift */; };
+		7028AFEA1D360465007FCE96 /* OSAcknowledgements.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7028AFE91D360465007FCE96 /* OSAcknowledgements.txt */; };
+		70A581BD1E0FDBC7007F6081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A581BB1E0FDBC7007F6081 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70228D241E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		70228D261E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		70228D281E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		70228D2A1E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		70228D2C1E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		70228D2E1E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		70228D301E0928BA00A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		70228D341E0928C600A14237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		700755861D333687009245CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				70228D331E0928C600A14237 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70228CC91E09284C00A14237 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = About.swift; path = attend/About.swift; sourceTree = "<group>"; };
+		70228CCA1E09284C00A14237 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = attend/AppDelegate.swift; sourceTree = "<group>"; };
+		70228CCB1E09284C00A14237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = attend/Assets.xcassets; sourceTree = "<group>"; };
+		70228CCD1E09284C00A14237 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Course.swift; path = attend/Course.swift; sourceTree = "<group>"; };
+		70228CCE1E09284C00A14237 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = attend/Event.swift; sourceTree = "<group>"; };
+		70228CCF1E09284C00A14237 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = attend/Info.plist; sourceTree = "<group>"; };
+		70228CD01E09284C00A14237 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "attend/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		70228CD11E09284C00A14237 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = attend/Localizable.strings; sourceTree = "<group>"; };
+		70228CD21E09284C00A14237 /* Screen1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen1.swift; path = attend/Screen1.swift; sourceTree = "<group>"; };
+		70228CD31E09284C00A14237 /* Screen2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen2.swift; path = attend/Screen2.swift; sourceTree = "<group>"; };
+		70228CD41E09284C00A14237 /* Screen3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen3.swift; path = attend/Screen3.swift; sourceTree = "<group>"; };
+		70228CD51E09284C00A14237 /* Screen3Tab1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen3Tab1.swift; path = attend/Screen3Tab1.swift; sourceTree = "<group>"; };
+		70228CD61E09284C00A14237 /* Screen3Tab1Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen3Tab1Popup.swift; path = attend/Screen3Tab1Popup.swift; sourceTree = "<group>"; };
+		70228CD71E09284C00A14237 /* Screen3Tab2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen3Tab2.swift; path = attend/Screen3Tab2.swift; sourceTree = "<group>"; };
+		70228CD81E09284C00A14237 /* Screen3Tab2Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen3Tab2Cell.swift; path = attend/Screen3Tab2Cell.swift; sourceTree = "<group>"; };
+		70228CD91E09284C00A14237 /* Screen3Tab4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen3Tab4.swift; path = attend/Screen3Tab4.swift; sourceTree = "<group>"; };
+		70228CDA1E09284C00A14237 /* Screen4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen4.swift; path = attend/Screen4.swift; sourceTree = "<group>"; };
+		70228CDB1E09284C00A14237 /* Screen4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen4Cell.swift; path = attend/Screen4Cell.swift; sourceTree = "<group>"; };
+		70228CDC1E09284C00A14237 /* Screen4Popup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen4Popup.swift; path = attend/Screen4Popup.swift; sourceTree = "<group>"; };
+		70228CDD1E09284C00A14237 /* Screen5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen5.swift; path = attend/Screen5.swift; sourceTree = "<group>"; };
+		70228CDE1E09284C00A14237 /* Screen6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen6.swift; path = attend/Screen6.swift; sourceTree = "<group>"; };
+		70228CDF1E09284C00A14237 /* Screen6a.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen6a.swift; path = attend/Screen6a.swift; sourceTree = "<group>"; };
+		70228CE01E09284C00A14237 /* Screen7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen7.swift; path = attend/Screen7.swift; sourceTree = "<group>"; };
+		70228CE11E09284C00A14237 /* Screen8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen8.swift; path = attend/Screen8.swift; sourceTree = "<group>"; };
+		70228CE21E09284C00A14237 /* Screen9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen9.swift; path = attend/Screen9.swift; sourceTree = "<group>"; };
+		70228CE31E09284C00A14237 /* Screen9Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen9Cell.swift; path = attend/Screen9Cell.swift; sourceTree = "<group>"; };
+		70228CE41E09284C00A14237 /* ScreenX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenX.swift; path = attend/ScreenX.swift; sourceTree = "<group>"; };
+		70228CE51E09284C00A14237 /* Tabs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Tabs.storyboard; path = attend/Tabs.storyboard; sourceTree = "<group>"; };
+		70228CE61E09284C00A14237 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = attend/Utils.swift; sourceTree = "<group>"; };
+		70228D061E09286E00A14237 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDCircularProgress.swift; path = Submodules/KDCircularProgress.swift; sourceTree = "<group>"; };
+		70228D0A1E09288200A14237 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Submodules/QRCodeReader/QRCodeReader.swift; sourceTree = "<group>"; };
+		70228D0B1E09288200A14237 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Submodules/QRCodeReader/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		70228D0C1E09288200A14237 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeViewController.swift; path = Submodules/QRCodeReader/QRCodeViewController.swift; sourceTree = "<group>"; };
+		70228D0D1E09288200A14237 /* QRCodeViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeViewControllerBuilder.swift; path = Submodules/QRCodeReader/QRCodeViewControllerBuilder.swift; sourceTree = "<group>"; };
+		70228D0E1E09288200A14237 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Submodules/QRCodeReader/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		70228D0F1E09288200A14237 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Submodules/QRCodeReader/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		70228D101E09288200A14237 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Submodules/QRCodeReader/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		70228D191E0928B900A14237 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Submodules/Alamofire-4.2.0/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		70228D401E0BB84900A14237 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Submodules/SwiftyJSON.swift; sourceTree = "<group>"; };
+		7028AFE91D360465007FCE96 /* OSAcknowledgements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OSAcknowledgements.txt; sourceTree = "<group>"; };
+		70A581BC1E0FDBC7007F6081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = attend/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70D4D5161D26918100FFC173 /* attend β.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "attend β.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D4D5131D26918100FFC173 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70228D321E0928C600A14237 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70228D051E09286300A14237 /* attend */ = {
+			isa = PBXGroup;
+			children = (
+				70228CC91E09284C00A14237 /* About.swift */,
+				70228CCA1E09284C00A14237 /* AppDelegate.swift */,
+				70228CCD1E09284C00A14237 /* Course.swift */,
+				70228CCE1E09284C00A14237 /* Event.swift */,
+				70228CD21E09284C00A14237 /* Screen1.swift */,
+				70228CD31E09284C00A14237 /* Screen2.swift */,
+				70228CD41E09284C00A14237 /* Screen3.swift */,
+				70228CD51E09284C00A14237 /* Screen3Tab1.swift */,
+				70228CD61E09284C00A14237 /* Screen3Tab1Popup.swift */,
+				70228CD71E09284C00A14237 /* Screen3Tab2.swift */,
+				70228CD81E09284C00A14237 /* Screen3Tab2Cell.swift */,
+				70228CD91E09284C00A14237 /* Screen3Tab4.swift */,
+				70228CDA1E09284C00A14237 /* Screen4.swift */,
+				70228CDB1E09284C00A14237 /* Screen4Cell.swift */,
+				70228CDC1E09284C00A14237 /* Screen4Popup.swift */,
+				70228CDD1E09284C00A14237 /* Screen5.swift */,
+				70228CDE1E09284C00A14237 /* Screen6.swift */,
+				70228CDF1E09284C00A14237 /* Screen6a.swift */,
+				70228CE01E09284C00A14237 /* Screen7.swift */,
+				70228CE11E09284C00A14237 /* Screen8.swift */,
+				70228CE21E09284C00A14237 /* Screen9.swift */,
+				70228CE31E09284C00A14237 /* Screen9Cell.swift */,
+				70228CE41E09284C00A14237 /* ScreenX.swift */,
+				70228CE61E09284C00A14237 /* Utils.swift */,
+			);
+			name = attend;
+			sourceTree = "<group>";
+		};
+		70228D181E09288A00A14237 /* QRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				70228D0A1E09288200A14237 /* QRCodeReader.swift */,
+				70228D0B1E09288200A14237 /* QRCodeReaderResult.swift */,
+				70228D0C1E09288200A14237 /* QRCodeViewController.swift */,
+				70228D0D1E09288200A14237 /* QRCodeViewControllerBuilder.swift */,
+				70228D0E1E09288200A14237 /* ReaderOverlayView.swift */,
+				70228D0F1E09288200A14237 /* SwitchCameraButton.swift */,
+				70228D101E09288200A14237 /* ToggleTorchButton.swift */,
+			);
+			name = QRCodeReader;
+			sourceTree = "<group>";
+		};
+		70228D1A1E0928B900A14237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70228D251E0928BA00A14237 /* Alamofire.framework */,
+				70228D271E0928BA00A14237 /* Alamofire iOS Tests.xctest */,
+				70228D291E0928BA00A14237 /* Alamofire.framework */,
+				70228D2B1E0928BA00A14237 /* Alamofire macOS Tests.xctest */,
+				70228D2D1E0928BA00A14237 /* Alamofire.framework */,
+				70228D2F1E0928BA00A14237 /* Alamofire tvOS Tests.xctest */,
+				70228D311E0928BA00A14237 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70228D371E0928E300A14237 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				70228D401E0BB84900A14237 /* SwiftyJSON.swift */,
+				70228D191E0928B900A14237 /* Alamofire.xcodeproj */,
+				70228D181E09288A00A14237 /* QRCodeReader */,
+				70228D061E09286E00A14237 /* KDCircularProgress.swift */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		70665C0C1E0FE9CA009C3632 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70228CD11E09284C00A14237 /* Localizable.strings */,
+				70228CD01E09284C00A14237 /* Launch Screen.storyboard */,
+				70A581BB1E0FDBC7007F6081 /* Main.storyboard */,
+				70228CCB1E09284C00A14237 /* Assets.xcassets */,
+				70228CE51E09284C00A14237 /* Tabs.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70D4D50D1D26918100FFC173 = {
+			isa = PBXGroup;
+			children = (
+				70228D051E09286300A14237 /* attend */,
+				70665C0C1E0FE9CA009C3632 /* Resources */,
+				70228D371E0928E300A14237 /* Submodules */,
+				7028AFE91D360465007FCE96 /* OSAcknowledgements.txt */,
+				70228CCF1E09284C00A14237 /* Info.plist */,
+				70D4D5171D26918100FFC173 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70D4D5171D26918100FFC173 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D4D5161D26918100FFC173 /* attend β.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70D4D5151D26918100FFC173 /* attend β */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D4D5281D26918200FFC173 /* Build configuration list for PBXNativeTarget "attend β" */;
+			buildPhases = (
+				70D4D5121D26918100FFC173 /* Sources */,
+				70D4D5131D26918100FFC173 /* Frameworks */,
+				70D4D5141D26918100FFC173 /* Resources */,
+				700755861D333687009245CE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70228D351E0928C600A14237 /* PBXTargetDependency */,
+			);
+			name = "attend β";
+			productName = miniAttend;
+			productReference = 70D4D5161D26918100FFC173 /* attend β.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70D4D50E1D26918100FFC173 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					70D4D5151D26918100FFC173 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XPZ49RF6C6;
+						DevelopmentTeamName = "Mohamed Gaber (Personal Team)";
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 70D4D5111D26918100FFC173 /* Build configuration list for PBXProject "attend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70D4D50D1D26918100FFC173;
+			productRefGroup = 70D4D5171D26918100FFC173 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 70228D1A1E0928B900A14237 /* Products */;
+					ProjectRef = 70228D191E0928B900A14237 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				70D4D5151D26918100FFC173 /* attend β */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		70228D251E0928BA00A14237 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 70228D241E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70228D271E0928BA00A14237 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 70228D261E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70228D291E0928BA00A14237 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 70228D281E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70228D2B1E0928BA00A14237 /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 70228D2A1E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70228D2D1E0928BA00A14237 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 70228D2C1E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70228D2F1E0928BA00A14237 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 70228D2E1E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		70228D311E0928BA00A14237 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 70228D301E0928BA00A14237 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70D4D5141D26918100FFC173 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A581BD1E0FDBC7007F6081 /* Main.storyboard in Resources */,
+				70228CEF1E09284C00A14237 /* Localizable.strings in Resources */,
+				70228D031E09284D00A14237 /* Tabs.storyboard in Resources */,
+				70228CE91E09284C00A14237 /* Assets.xcassets in Resources */,
+				70228CEE1E09284C00A14237 /* Launch Screen.storyboard in Resources */,
+				7028AFEA1D360465007FCE96 /* OSAcknowledgements.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70D4D5121D26918100FFC173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70228CF21E09284C00A14237 /* Screen3.swift in Sources */,
+				70228D111E09288200A14237 /* QRCodeReader.swift in Sources */,
+				70228CF11E09284C00A14237 /* Screen2.swift in Sources */,
+				70228D411E0BB84900A14237 /* SwiftyJSON.swift in Sources */,
+				70228D121E09288200A14237 /* QRCodeReaderResult.swift in Sources */,
+				70228CF91E09284C00A14237 /* Screen4Cell.swift in Sources */,
+				70228D001E09284D00A14237 /* Screen9.swift in Sources */,
+				70228CEC1E09284C00A14237 /* Event.swift in Sources */,
+				70228CF01E09284C00A14237 /* Screen1.swift in Sources */,
+				70228D071E09286E00A14237 /* KDCircularProgress.swift in Sources */,
+				70228CEB1E09284C00A14237 /* Course.swift in Sources */,
+				70228D161E09288200A14237 /* SwitchCameraButton.swift in Sources */,
+				70228D011E09284D00A14237 /* Screen9Cell.swift in Sources */,
+				70228CFE1E09284D00A14237 /* Screen7.swift in Sources */,
+				70228CFD1E09284D00A14237 /* Screen6a.swift in Sources */,
+				70228D131E09288200A14237 /* QRCodeViewController.swift in Sources */,
+				70228D141E09288200A14237 /* QRCodeViewControllerBuilder.swift in Sources */,
+				70228CE81E09284C00A14237 /* AppDelegate.swift in Sources */,
+				70228CF71E09284C00A14237 /* Screen3Tab4.swift in Sources */,
+				70228CFA1E09284C00A14237 /* Screen4Popup.swift in Sources */,
+				70228CF61E09284C00A14237 /* Screen3Tab2Cell.swift in Sources */,
+				70228D171E09288200A14237 /* ToggleTorchButton.swift in Sources */,
+				70228CF51E09284C00A14237 /* Screen3Tab2.swift in Sources */,
+				70228CFC1E09284D00A14237 /* Screen6.swift in Sources */,
+				70228CF41E09284C00A14237 /* Screen3Tab1Popup.swift in Sources */,
+				70228CE71E09284C00A14237 /* About.swift in Sources */,
+				70228CFF1E09284D00A14237 /* Screen8.swift in Sources */,
+				70228CFB1E09284D00A14237 /* Screen5.swift in Sources */,
+				70228CF81E09284C00A14237 /* Screen4.swift in Sources */,
+				70228D151E09288200A14237 /* ReaderOverlayView.swift in Sources */,
+				70228CF31E09284C00A14237 /* Screen3Tab1.swift in Sources */,
+				70228D021E09284D00A14237 /* ScreenX.swift in Sources */,
+				70228D041E09284D00A14237 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70228D351E0928C600A14237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 70228D341E0928C600A14237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70A581BB1E0FDBC7007F6081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A581BC1E0FDBC7007F6081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70D4D5261D26918200FFC173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70D4D5271D26918200FFC173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70D4D5291D26918200FFC173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/attend/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = potato.skyus.attend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "attend-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70D4D52A1D26918200FFC173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/attend/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = potato.skyus.attend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "attend-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70D4D5111D26918100FFC173 /* Build configuration list for PBXProject "attend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D4D5261D26918200FFC173 /* Debug */,
+				70D4D5271D26918200FFC173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D4D5281D26918200FFC173 /* Build configuration list for PBXNativeTarget "attend β" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D4D5291D26918200FFC173 /* Debug */,
+				70D4D52A1D26918200FFC173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70D4D50E1D26918100FFC173 /* Project object */;
+}

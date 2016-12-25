@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/class_stats_view_events"
+        android:id="@+id/class_stats_view_events"/>
+
+    <item android:title="@string/class_stats_view_events_instance"
+        android:id="@+id/class_stats_view_event_instance"/>
+
+    <item android:title="@string/change_involvement"
+        android:id="@+id/change_involvment"/>
+</menu>

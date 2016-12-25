@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">attend</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="fields_empty">All fields required.</string>
+    <string name="password_unmatch">Passwords not matching.</string>
+    <string name="conn_error">Connection Error</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login_with_period"><u>Log in.</u></string>
+
+
+    <string name="qr_scan">Attend</string>
+    <string name="classes">Classes</string>
+    <string name="more">More</string>
+
+    <string name="permission_request">Permission Request</string>
+    <string name="please_enable_camera">Please enable the camera to be able to scan QR codes.</string>
+    <string name="dismiss">Dismiss</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">[BlankFragment]</string>
+    <string name="edit_info">Edit Contact Info</string>
+    <string name="about">About</string>
+
+    <string name="preferences">preferences</string>
+    <string name="login_token">login_token</string>
+    <string name="log_out">Log Out</string>
+    <string name="enter_pin">Enter QR code</string>
+    <string name="create_class">Create Course</string>
+    <string name="create_event">Create Event</string>
+    <string name="send">Send</string>
+    <string name="course_name">Course name</string>
+    <string name="course_code">Course code</string>
+    <string name="course_section">Course section</string>
+    <string name="course_allowed_absences">Allowed absences</string>
+    <string name="create">Create</string>
+    <string name="is_special">Is special</string>
+    <string name="event_name">Event name</string>
+    <string name="marking_attendance">Marking attendence</string>
+    <string name="please_wait">Please wait</string>
+    <string name="view_events">View events</string>
+    <string name="class_stats_view_events">View classes</string>
+    <string name="class_stats_view_events_instance">View sessions</string>
+    <string name="qr_code_active">Code active</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="involvement">Involvement</string>
+    <string name="Privileges">Privileges</string>
+    <string name="change_involvement">Change involvement</string>
+
+    <string-array name="yes_no">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+
+    <string-array name="class_options">
+        <item>Drop class</item>
+    </string-array>
+
+    <string-array name="involvement_options">
+        <item>Professor</item>
+        <item>Senior TA</item>
+        <item>TA</item>
+        <item>Student</item>
+    </string-array>
+
+
+    <string-array name="privileges_options">
+        <item>No Privileges</item>
+        <item>Can create special events</item>
+        <item>Full privileges</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,86 @@
+//General
+"Error" = "Error";
+"Server Error" = "Server Error";
+"Please contact the system administrator." = "Please contact the system administrator.";
+"All fields are required." = "All fields are required.";
+"Check your internet connection." = "Check your internet connection.";
+"The app has been met with a terrible fate and needs to stop." = "The app has been met with a terrible fate and needs to stop.";
+"This feature has not yet been implemented." = "This feature has not yet been implemented.";
+"You are not authorized to perform this action." = "You are not authorized to perform this action.";
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Update" = "Update";
+
+//Screen 1
+"Passwords do not match." = "Passwords do not match.";
+"Registering..." = "Registering...";
+"Please wait a moment." = "Please wait a moment.";
+"Registration Error" = "Registration Error";
+"Your email may be invalid." = "Your email may be invalid.";
+"Registration Successful" = "Registration Successful";
+"You should be recieving an email to confirm your account shortly." = "You should be recieving an email to confirm your account shortly.";
+
+//Screen 2
+"Logging in..." = "Logging in...";
+"Email and password combination does not match any of our records." = "Email and password combination does not match any of our records.";
+
+//Screen 3
+//Attendance Messages
+"Your attendance is in good shape." = "Your attendance is in good shape.";
+"You are one class away from your limit." = "You are one class away from your limit.";
+"Try not to miss more classes." = "Try not to miss more classes.";
+"You exceeded the absence limit." = "You exceeded the absence limit.";
+"Your attendance has been recorded." = "Your attendance has been recorded.";
+
+//Updating
+"Please wait until the update is finished." = "Please wait until the update is finished.";
+
+//Tab 1
+"QR Code Reader not supported by your device." = "QR Code Reader not supported by your device.";
+"Up next" = "Up next";
+"at" = "at";
+"You are not enrolled in this course." = "You are not enrolled in this course.";
+"Event no longer active." = "Event no longer active.";
+"Event does not exist." = "Event does not exist.";
+
+//Tab 2
+"Create or Join?" = "Create or Join?";
+"Join Class" = "Join Class";
+"To join a course, attend any of its events by either scanning its QR Code or entering the numeric code." = "To join a course, attend any of its events by either scanning its QR Code or entering the numeric code.";
+"Create Class" = "Create Class";
+
+//Screen 4
+"Events" = "Events";
+"Drop Class" = "Drop Class";
+"Are you sure you want to send a drop request?" = "Are you sure you want to send a drop request?";
+"Those responsible for the course have recieved your drop request." = "Those responsible for the course have recieved your drop request.";
+"User does not exist or is not enrolled." = "User does not exist or is not enrolled.";
+"Excused." = "Excused.";
+
+//Screen 5
+"Creation Successful" = "Creation Successful";
+"The course has been successfully created." = "The course has been successfully created.";
+
+//Screen 6
+"Course no longer exists." = "Course no longer exists.";
+
+//Screen 6a
+"Successfully created event." = "Successfully created event.";
+
+//Screen 7
+"Instantiate" = "Instantiate";
+
+//Screen 8
+"User does not exist." = "User does not exist.";
+"Altering involvement successful." = "Altering involvement successful.";
+
+//Screen 9
+"at" = "at";
+"On" = "On";
+
+//Screen X
+"Instance no longer exists." = "Instance no longer exists.";
+"Failed to attend. You have likely already attended this session." = "Failed to attend. You have likely already attended this session.";

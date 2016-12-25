@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>attend Web</title>
+        <link rel = "stylesheet" type="text/css" href="styling.css">
+    </head>
+
+    <div id="parent">
+        <body id="loginBody">
+
+            <form method="post" action="web_login.php">
+
+                <img id="image" height="300" width="300"/>
+
+                </br>Code:<br>
+                <input type="number" id= 'user_input' name="Code"><br><br>
+                <input type="button" value = "Generate"  onclick="generate()"/><br><br>
+            </form>
+
+            <script>
+                function generate(){
+                    var code = document.getElementById("user_input");
+                    var text = "miniAttendCode:";
+                    text = text.concat(code.value,"&choe=UTF-8");
+                    var image = document.getElementById("image");
+
+                    image.src = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl="
+                        .concat(text);
+                }
+            </script>
+
+        </body>
+
+    </div>
+</html >

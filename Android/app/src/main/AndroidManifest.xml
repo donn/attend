@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hasebou.prototyping.miniattend">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ma_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".RegistrationActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ClassStatsActivity"
+            android:parentActivityName=".ClassStatsActivity" android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hasebou.prototyping.miniattend.ClassStatsActivity" />
+        </activity>
+        <activity
+            android:name=".CreateClassActivity"
+            android:parentActivityName=".MainActivity" android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hasebou.prototyping.miniattend.MainActivity" />
+        </activity>
+
+        <activity android:name=".EventListActivity" android:label="Classes" android:screenOrientation="portrait"/>
+        <activity android:name=".EventInstanceListActivity" android:label="Sessions" android:screenOrientation="portrait"/>
+        <activity android:name=".CreateEventInstance" android:label="Create sessions" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ChangeInvolvementActivity" android:label="Change involvement" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

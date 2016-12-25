@@ -1,0 +1,1 @@
+Please note: register.php and login.php have special formats.

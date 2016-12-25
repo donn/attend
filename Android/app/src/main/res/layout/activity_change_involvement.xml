@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hasebou.prototyping.miniattend.ChangeInvolvementActivity"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:text="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+    <EditText
+        android:id="@+id/activity_change_involvement_email"
+        android:maxLines="1"
+        android:hint="example@aucegypt.edu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/involvement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+    <Spinner
+        android:id="@+id/activity_change_involvement_title"
+        android:entries="@array/involvement_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/Privileges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+    <Spinner
+        android:id="@+id/activity_change_involvement_privileges"
+        android:entries="@array/privileges_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+            android:text="submit"
+            android:layout_gravity="center_horizontal"
+            android:onClick="changeInvolvement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>
