@@ -1,5 +1,5 @@
 # attend for Android
-This is the Android version of attend. It was created by [@skyus](https://github.com/karimhasebou) (Please contact him for more information).
+This is the Android version of attend. It was created by [@karimhasebou](https://github.com/karimhasebou) (Please contact him for more information).
 
 # Requirements
 The app itself requires Android 4 or higher.
